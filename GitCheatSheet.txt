@@ -17,9 +17,7 @@ git log -> Sirve para mostrar por pantalla los commits realizados en el reposito
 	
 git add -> Sirve para añadir al seguimiento de archivos uno o varios archivos creados recientemente. Puedes usar "git add ." para añadir todos los archivos que no estén en el seguimiento o "git add [nombre_archivo]" para añadir un archivo en concreto al seguimiento.
 
-git reset -> Sirve para borrar del seguimiento de archivos uno o varios archivos que no queramos que se suban pero queramos preservarlos. Puedes usar "git reset ." para borrar todos los archivos que estén en el seguimiento o "git reset [nombre_archivo]" para borrar un archivo en concreto del seguimiento.
-
-git rm -> Sirve para eliminar uno o varios archivos que no queramos que estén en el repositorio. Puedes usar "git rm ." para eliminar todos los archivos que estén en el seguimiento o "git rm [nombre_archivo]" para eliminar un archivo en concreto del seguimiento.
+git rm -> Sirve para eliminar del seguimiento de archivos uno o varios archivos que no queramos que estén en el repositorio. Puedes usar "git rm ." para eliminar todos los archivos que estén en el seguimiento o "git rm [nombre_archivo]" para eliminar un archivo en concreto del seguimiento.
 
 git clone [url] -> Sirve para clonar un repositorio de GitHub en la carpeta actual usando una URL dada por la página.
 
