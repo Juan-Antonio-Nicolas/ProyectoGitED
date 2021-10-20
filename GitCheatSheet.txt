@@ -1,0 +1,28 @@
+git --version -> Se usa para ver la versión alctual de git y saber si hay actualizaciones disponibles.
+
+git config -> Sirve para configurar algún parámetro u opción de git. Los usados en esta unidad son:
+	- git config --global user.name "name": Este se usa para configurar, con estorno global(afecta a todo el programa), el nombre del usuario.
+	- git config --global user.email email:  Este se usa para configurar, con estorno global, la dirección de correo electrónico.
+
+git init -> Sirve para crear un repositorio .git dentro de una carpeta
+
+git status -> Sirve para mostrar por pantalla el estado del repositorio .git en el que te encuentras actualmente. La pantalla de estado muestra:
+	- La rama en la que te encuentras dentro del repositorio.
+	- Si se ha realizado algún commit.
+	- Si hay algún archivo dentro de la carpeta del repositorio que no está trackeado por git.
+
+git log -> Sirve para mostrar por pantalla los commits realizados en el repositorio. La pantalla de commits muestra:
+    - Los commits realizados en orden de creación
+    - Los autores de estos commits y cuando los hicieron
+	
+git add -> Sirve para añadir al seguimiento de archivos uno o varios archivos creados recientemente. Puedes usar "git add ." para añadir todos los archivos que no estén en el seguimiento o "git add [nombre_archivo]" para añadir un archivo en concreto al seguimiento.
+
+git reset -> Sirve para borrar del seguimiento de archivos uno o varios archivos que no queramos que se suban pero queramos preservarlos. Puedes usar "git reset ." para borrar todos los archivos que estén en el seguimiento o "git reset [nombre_archivo]" para borrar un archivo en concreto del seguimiento.
+
+git rm -> Sirve para eliminar uno o varios archivos que no queramos que estén en el repositorio. Puedes usar "git rm ." para eliminar todos los archivos que estén en el seguimiento o "git rm [nombre_archivo]" para eliminar un archivo en concreto del seguimiento.
+
+git clone [url] -> Sirve para clonar un repositorio de GitHub en la carpeta actual usando una URL dada por la página.
+
+git commit -m "[mensaje]" -> Sirve para añadir un commit para llevar un seguimiento de los cambios realizados en el repositorio.
+
+git push -> Sirve para efectuar los cambios realizados en el repositorio local y subirlos al repositorio en GitHub. Antes de usarse debe haberse hecho un "git add" o un "git rm" y un "git commit" para que este comando haga efecto.
